@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nattprat — support och integritet</title>
+<style>
+  :root {
+    --bg: #070b14;
+    --surface: #0e1422;
+    --border: #1e2940;
+    --text: #e8edf7;
+    --muted: #8c99b2;
+    --dim: #5b6785;
+    --primary: #7b8cff;
+    --accent: #ffb86b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: radial-gradient(900px 500px at 50% -10%, #16203c 0%, var(--bg) 60%);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+    padding: 48px 20px 80px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  .wordmark {
+    font-size: 12px; letter-spacing: 3px; font-weight: 700;
+    color: var(--dim); text-transform: uppercase; margin-bottom: 40px;
+  }
+  h1 { font-size: 34px; line-height: 1.15; letter-spacing: -1px; margin: 0 0 12px; }
+  h2 {
+    font-size: 13px; letter-spacing: 1.4px; text-transform: uppercase;
+    color: var(--dim); margin: 48px 0 14px;
+  }
+  p, li { color: var(--muted); font-size: 16px; }
+  strong { color: var(--text); font-weight: 600; }
+  a { color: var(--primary); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 20px; padding: 24px 26px; margin: 18px 0;
+  }
+  .lede { font-size: 18px; color: var(--text); }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 56px 0; }
+  footer { color: var(--dim); font-size: 13px; margin-top: 56px; }
+  .accent { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="wordmark">Nattprat</div>
+
+  <h1>Support och integritet</h1>
+  <p class="lede">Nattprat spelar in när du pratar i sömnen. Inget lämnar telefonen.</p>
+
+  <h2>Support</h2>
+  <div class="card">
+    <p>
+      Frågor, fel eller förslag? Mejla
+      <a href="mailto:EPOST">EPOST</a>.
+      Vi svarar normalt inom två arbetsdagar.
+    </p>
+    <p>
+      Skriv gärna vilken iPhone och iOS-version du har, och vad som hände.
+      Skicka aldrig ljudklipp du inte vill dela — vi behöver dem inte.
+    </p>
+  </div>
+
+  <h2>Vanliga frågor</h2>
+  <div class="card">
+    <p><strong>Spelas allt in?</strong><br>
+      Nej. Appen lyssnar hela natten men sparar bara de stunder det är ljud.
+      Resten skrivs aldrig till disk.</p>
+
+    <p><strong>Försvinner mina klipp om jag avinstallerar?</strong><br>
+      Ja. Klippen ligger i appens egen lagring. Spara det du vill behålla med
+      <em>Mer → Data → Exportera</em> innan du tar bort appen.</p>
+
+    <p><strong>Var lagras ljudet?</strong><br>
+      Bara i telefonen, i appens egen mapp. Ingen molntjänst, inget konto,
+      ingen server.</p>
+
+    <p><strong>Hur länge sparas klipp?</strong><br>
+      Så länge du väljer i inställningarna. Standard är 30 dagar. Klipp du
+      sparat raderas aldrig automatiskt.</p>
+
+    <p><strong>Varför hörs ingenting?</strong><br>
+      Prova mikrofonen i appen under <em>Mer → Mikrofonprov</em>. Kontrollera
+      också att telefonen inte ligger under en kudde och att
+      mikrofonbehörigheten är tillåten i iOS-inställningarna.</p>
+  </div>
+
+  <h2>Integritetspolicy</h2>
+  <p><strong>Senast uppdaterad:</strong> 31 oktober 2026</p>
+
+  <div class="card">
+    <p><strong>Vilka uppgifter samlas in?</strong><br>
+      Inga. Nattprat har inget konto, ingen inloggning och ingen
+      analysfunktion. Appen skickar ingen data till oss eller till tredje part.</p>
+
+    <p><strong>Mikrofonen</strong><br>
+      Används bara när du själv startar en inspelning. Ljudet bearbetas på
+      telefonen och sparas som ljudfiler i appens lagring. Det lämnar aldrig
+      enheten.</p>
+
+    <p><strong>Lagring</strong><br>
+      Ljudfiler och inställningar ligger lokalt i appens mapp. Mappen undantas
+      från iCloud-säkerhetskopiering och skyddas av iOS filskydd.</p>
+
+    <p><strong>Delning</strong><br>
+      Om du väljer att dela ett klipp skickas filen via systemets delningsark
+      till den app du väljer. Det är du som avgör, och det sker utanför
+      Nattprat.</p>
+
+    <p><strong>Köp</strong><br>
+      Köp hanteras av App Store. Vi ser aldrig dina kortuppgifter eller din
+      fakturaadress. Apple hanterar betalningen och eventuella återbetalningar.</p>
+
+    <p><strong>Barn</strong><br>
+      Appen samlar inte in uppgifter från någon, oavsett ålder.</p>
+
+    <p><strong>Dina rättigheter</strong><br>
+      Eftersom vi inte har några uppgifter om dig finns det inget att begära
+      ut eller radera hos oss. All data ligger hos dig och försvinner när du
+      raderar appen.</p>
+
+    <p><strong>Kontakt</strong><br>
+      <a href="mailto:EPOST">EPOST</a></p>
+  </div>
+
+  <h2>Personuppgiftsansvarig</h2>
+  <div class="card">
+    <p>
+      FÖRETAG<br>
+      ORGNR<br>
+      Sverige
+    </p>
+  </div>
+
+  <hr>
+
+  <h1>Support and privacy</h1>
+  <p class="lede">Nattprat records while you sleep-talk. Nothing leaves your phone.</p>
+
+  <h2>Support</h2>
+  <div class="card">
+    <p>Questions or issues? Email <a href="mailto:EPOST">EPOST</a>.</p>
+  </div>
+
+  <h2>Privacy policy</h2>
+  <p><strong>Last updated:</strong> 31 October 2026</p>
+  <div class="card">
+    <p><strong>Data collected</strong><br>
+      None. Nattprat has no account, no login and no analytics. The app sends
+      no data to us or to any third party.</p>
+
+    <p><strong>Microphone</strong><br>
+      Used only when you start a recording. Audio is processed on the device
+      and stored as audio files in the app's storage. It never leaves the
+      device.</p>
+
+    <p><strong>Storage</strong><br>
+      Audio and settings are stored locally. The folder is excluded from iCloud
+      backup and protected by iOS file protection.</p>
+
+    <p><strong>Purchases</strong><br>
+      Purchases are handled by the App Store. We never see your payment details.</p>
+
+    <p><strong>Contact</strong><br>
+      <a href="mailto:EPOST">EPOST</a></p>
+  </div>
+
+  <footer>
+    Nattprat · <a href="mailto:EPOST">EPOST</a>
+  </footer>
+</main>
+</body>
+</html>
